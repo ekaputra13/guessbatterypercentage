@@ -1,0 +1,27 @@
+body {
+  padding-top: 56px; /* Memberikan ruang bagi navbar fixed-top */
+  background-color: rgba(255, 255, 255, 0.95); /* Latar belakang putih dengan transparansi */
+}
+.container {
+  max-width: 600px;
+}
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; /* Sudut membulat */
+  backdrop-filter: blur(10px); /* Efek blur pada card */
+  background: rgba(255, 255, 255, 0.8); /* Latar belakang putih transparan */
+}
+#result {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+/* Gradien dan pengaturan navbar */
+.navbar {
+  background: linear-gradient(to right, #007bff, #6610f2); /* Gradien biru ke ungu */
+}
+.navbar-brand {
+  flex: 1; /* Membuat brand mengambil ruang penuh di navbar */
+  text-align: center; /* Menengahkan teks di dalam brand */
+}
